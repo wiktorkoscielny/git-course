@@ -1,0 +1,44 @@
+Komendy git:
+
+/* 
+working directory (tracked pliki, untracked pliki) -> 
+staging area -> 
+repository 
+*/
+
+commit -> zmiany
+branch -> gałąź
+master -> main
+
+cd (filename)
+git cd - change directory
+git int - git initialize
+git status - status
+touch "..." dodaje plik
+
+code. - otwiera vs
+
+git add / git rm --cached
+git add -A 
+git commit -m"komentarz"
+git commit -am
+git clone (code addres from github)
+
+git log
+git status
+ls
+
+git branch
+git checkout -b"..."
+git checkout (np master)
+git merge (np logowanie do master czyli "logowanie")
+git push
+git pull
+( git pull rebase vs merge )
+git pull --rebase
+git rebase --continue
+git rebase --abort
+
+! Ważne, aby po każdej zmianie sprawdzić status, by sprawdzić modyfikacje i
+niczego nie pominąć.
+

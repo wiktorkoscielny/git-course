@@ -1,0 +1,20 @@
+
+
+* Wycofywanie zmian w GIT *
+
+1 sposób
+
+By zrezygnować ze zmian, wrócić do zmian z ostatniego komita :
+
+- 'git reset --hard'
+
+wówczas cofamy się do ostatniego komita.
+
+2 sposób
+
+Gdy chcemy usunąć zmiany tylko z 1 konkretnego pliku
+
+- 'git checkout "nazwa pliku"'
+
+
+

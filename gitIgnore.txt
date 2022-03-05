@@ -1,0 +1,19 @@
+
+* Git ignore*
+jest to plik, który określa jakie pliki mają nie być śledzone przez Gita, 
+aby nie byly dodawane do repozytorium
+
+- tworzony za pomocą np. vima
+- "vi .gitignore" - podajemy tutaj jakich plików git ma nie śledzić!
+- to jest np. pliki z rozszerzeniem .iml, .idea/, .DS-Store
+
+"
+.iml
+.idea/
+.DS-Store
+"
+
+- then :wq
+
+gitignore może być zarówno wewnątrz projektu, jak i globalnie (w katalogu użytkownika)
+ - szablony gitignore (np. dla vs/intelij gitignore/maven)

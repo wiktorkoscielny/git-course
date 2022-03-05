@@ -1,0 +1,5 @@
+Brancze te tworzone są na potrzeby tworzenia konkretnych funkcjonalności,
+aby je dodawać należy zaciągać zmiany najpierw na brancz głowny i aktualizować o te zmiany 
+nasz brancz.
+
+cd. git merge vs rebase

@@ -1,0 +1,20 @@
+*Conflicts*
+
+<h1> Niekonfliktujące zmiany </h1>
+
+Jeśli dodamy zmiane w pliku, następnie ją skomitujemy, 
+a w tym czasie ktoś wcześniej dodał nowy fragment kodu nie wpływający na naszą zmianę, 
+wówczas po pushu (i zaciągnięciu zmian [git pull --rebase]) nie będzie żadnego problemu.
+
+<h1> Konfliktujące zmiany </h1>
+
+Jeśli natomiast dokonamy zmian w tym samym fragmencie, w którym ktoś inny
+przed nami dokonał zmiany, wówczas podczas pushu wyświetli się informacja,
+a po zaciągnięciu zmian, dokonamy pusha, wówczas pojawi się informacja o konflikcie.
+W takiej sytuacji należy albo dokonać zmian ręcznie, albo skorzystać z
+dostępnych rozwiązań aplikacji na której pracujemy.
+and then...
+
+git rebase --continue
+
+to stop rebasing just type git rebase --abort
